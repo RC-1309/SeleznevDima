@@ -1,4 +1,7 @@
 class User:
+    """The main class that stores the first and second name
+
+    """
     def __init__(self, first_name, second_name, type_user):
         self.first_name = first_name
         self.second_name = second_name
@@ -45,6 +48,9 @@ class Student(User):
 
 
 class Room:
+    """The main class that stores the access level, number and type room
+
+    """
     def __init__(self, number, access_level, type_room):
         self.number = number
         self.access_level = access_level
